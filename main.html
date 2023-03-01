@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KESULA.Com</title>
+
+<link rel="stylesheet" href="main.css">
+<script src="https://kit.fontawesome.com/b2b86329c2.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-image: url('bg_img3.png');">
+
+<header>
+  <h1>Welcome to the best cake shop ever....!</h1>
+</header>
+
+
+
+
+
+
+<!-- <a class="present"  href="#"> <input type="text" placeholder="Search Here..."><i class="fa fa-fw fa-search"></i></a>  -->
+ 
+<button style="width:auto;" ><i class="fa fa-fw fa-home"></i>Home</button>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="user_image.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<script>
+  var modal = document.getElementById('id01');
+  window.onclick = function(event) {
+  if (event.target == modal) {
+      modal.style.display = "none";
+  }
+}
+</script>
+
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Contact Us</button>
+<div id="id02" class="modal">
+
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <!-- <img src="user_image.png" alt="Avatar" class="avatar"> -->
+    </div>
+
+    <div class="cbtn" style="background-color: aqua;">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select class="" id="country" name="country">
+          <option value="india">India</option>
+          <option value="west Indies">Weat Indies</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="england">England</option>
+          <option value="sauth africa">Sauth Africa</option>
+        </select>
+        <label  for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px; "></textarea>
+        <input type="submit" value="Submit" >
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+     
+    </div>
+  </form>
+</div>
+
+<script>
+  var modal = document.getElementById('id02');
+  window.onclick = function(event) {
+  if (event.target == modal) {
+      modal.style.display = "none";
+  }
+}
+</script>
+<div class="tnov">
+<input class="search" type="text" placeholder="Search.." name="search">
+  <button class="search" type="submit" ><i class="fa fa-search"></i></button>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+
+<!-- <script>
+  var modal = document.getElementById('id01');
+  window.onclick = function(event) {
+  if (event.target == modal) {
+      modal.style.display = "none";
+  }
+}
+</script> -->
+
+
+  
+  <!-- href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>  -->
+
+  
+  <hr>
+  
+  <div class="My_Animation">
+    <div style="background-image: url('Chisy_Strowbery.png');"></div>
+    <div style="background-image: url('Choco_Strowberry.png');"></div>
+    <div style="background-image: url('chocolate.png');"></div>
+    <div style="background-image: url('cream_carrot.png');"></div>
+    <div style="background-image: url('Triple_Chisy_Strowberry.png');"></div>
+    <div style="background-image: url('Dark_Chocolate.png');"></div>
+    <div style="background-image: url('Pineeapple.png');"></div>
+    <div style="background-image: url('creamy_flower.png');"></div>
+    <div style="background-image: url('pinkberry.png');"></div>
+    <div style="background-image: url('berry_with_cream.png');"></div>
+    <div style="background-image: url('blueberry.png');"></div>
+    <div style="background-image: url('Italian_choco.png');"></div>
+    
+  
+  </div>
+  
+  <hr>
+  <hr>
+
+
+
+
+
+<h2 style="font-size: xx-large; color: red; text-align: center;">
+  <b style="margin-bottom: 100px;">cakes</b>
+</h2>
+
+<div class="row"> 
+  <div class="column">
+      <div class="gallery">
+      <h3>Chisy Strowbery</h3>
+    <a target="_blank" href="Chisy_Strowbery.png">
+      <img src="Chisy_Strowbery.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Choco Strowberry</h3>
+    <a target="_blank" href="Choco_Strowberry.png">
+      <img src="Choco_Strowberry.png" alt="Forest" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Chocolate</h3>
+    <a target="_blank" href="chocolate.png">
+      <img src="chocolate.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+  <div class="gallery">
+    <h3>Cream Carrot</h3>
+    <a target="_blank" href="cream_carrot.png">
+      <img src="cream_carrot.png" alt="Mountains" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Cream Pestry</h3>
+    <a target="_blank" href="cream_pestry.png">
+      <img src="cream_pestry.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Cream Rose</h3>
+    <a target="_blank" href="CreamRose.png">
+      <img src="CreamRose.png" alt="Forest" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+  <div class="gallery">
+    <h3>Creamy Flower</h3>
+    <a target="_blank" href="creamy_flower.png">
+      <img src="creamy_flower.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Dark Chocolate</h3>
+    <a target="_blank" href="Dark_Chocolate.png">
+      <img src="Dark_Chocolate.png" alt="Mountains" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Pineeapple</h3>
+    <a target="_blank" href="Pineeapple.png">
+      <img src="Pineeapple.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+  <div class="gallery">
+    <h3>Rose Cream</h3>
+    <a target="_blank" href="Rose_cream.png">
+      <img src="Rose_cream.png" alt="Forest" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+</div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Strowberry</h3>
+    <a target="_blank" href="strowberry.png">
+      <img src="strowberry.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Triple Chisy Strowberry</h3>
+    <a target="_blank" href="Triple_Chisy_Strowberry.png">
+      <img src="Triple_Chisy_Strowberry.png" alt="Mountains" width="600" height="400">
+    </a>   
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+</div>
+</div>
+
+<p style="color: maroon; cursor:default;">_____________________________________________________________________________________________________________________________________________________________________________</p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2 style="font-size: xx-large; color: red; text-align: center;">
+  <b style="margin-top: 100px;">Pastry</b>
+</h2>
+
+<div class="row">
+  <div class="column">
+  <div class="gallery">
+    <h3>Pinkberry</h3>
+    <a target="_blank" href="pinkberry.png">
+      <img src="pinkberry.png" alt="Forest" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+</div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Mix Choco</h3>
+    <a target="_blank" href="Mix_choco.png">
+      <img src="Mix_choco.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Bambai Flavaur</h3>
+    <a target="_blank" href="Bambai_flav.png">
+      <img src="Bambai_flav.png" alt="Mountains" width="600" height="400">
+    </a>   
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+  <div class="gallery">
+    <h3>Berry With Cream</h3>
+    <a target="_blank" href="berry_with_cream.png">
+      <img src="berry_with_cream.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Blueberry</h3>
+    <a target="_blank" href="blueberry.png">
+      <img src="blueberry.png" alt="Mountains" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Sweet Orange</h3>
+    <a target="_blank" href="Sweet_Orange.png">
+      <img src="Sweet_Orange.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+</div>
+<p>_____________________________________________________________________________________________________________________________________________________________________________</p>
+<br>
+<br>
+<br>
+<br>
+<h2 style="font-size: xx-large; color: red; text-align: center;">
+  <b style="margin-top: 100px;">Chocolates</b>
+</h2>
+
+
+<br>
+
+<div class="row">
+  <div class="column">
+  <div class="gallery">
+    <h3>Italian Chocolate</h3>
+    <a target="_blank" href="Italian_choco.png">
+      <img src="Italian_choco.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Sosy Chocolate</h3>
+    <a target="_blank" href="Sosy_chocolate.png">
+      <img src="Sosy_chocolate.png" alt="Mountains" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Ice Mint Chocolate</h3>
+    <a target="_blank" href="Ice_Mint_Chocolate.png">
+      <img src="Ice_Mint_Chocolate.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+  <div class="gallery">
+    <h3>Dry Milky Chocolate</h3>
+    <a target="_blank" href="dry_milky_chocolate.png">
+      <img src="dry_milky_chocolate.png" alt="Northern Lights" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Mint Lolypop</h3>
+    <a target="_blank" href="mint_lolypop.png">
+      <img src="mint_lolypop.png" alt="Mountains" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+
+  <div class="column">
+  <div class="gallery">
+    <h3>Gold Plated</h3>
+    <a target="_blank" href="Gold_plated.png">
+      <img src="Gold_plated.png" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <input type="button" value="Buy Now" class="right">
+    <input type="button" value="Add To Cart" class="left">
+  </div>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<p>_____________________________________________________________________________________________________________________________________________________________________________</p>
+
+<br>
+<br>
+<br>
+
+
+  <p class="social" style="right:60px">Connect With Us</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a class="social" style="right:80px" href="https://www.facebook.com/sajan.chavhan.9/"><i class="fa-brands fa-facebook"></i></a>
+  <a class="social" style="right:140px" href="https://www.instagram.com/shrijan_chavan12/"><i class="fa-brands fa-instagram"></i></a>
+  <a class="social" style="right:200px" href="https://twitter.com/ShrijanChavan?t=vBO5OCzIzhaZUC5vOI-_EA&s=09"><i class="fa-brands fa-twitter"></i></a>
+  <a class="social" style="right:260px" href="https://www.youtube.com/channel/UCBCxLIiWBDeCN5y1iVyUxxQ"><i class="fa-brands fa-square-youtube"></i></a>
+ 
+
+</div>
+
+<!-- <p style="color: maroon; cursor:default;">_____________________________________________________________________________________________________________________________________________________________________________</p> -->
+<div class="row">
+  <div class="column">
+  <div>
+    <a style="color:black; margin:10px" href="">Contact Us</a>
+    <br>
+    <a style="color:black; margin:10px" href="">About Us</a>
+    <br>
+    <a style="color:black; margin:10px" href="">Become Franchise</a>
+    <br>
+    <a style="color:black; margin:10px" href="">Become Vendoe</a>
+    <br>
+  </div>
+  </div>
+  
+  <div class="column">
+  <div>
+    <a style="color:black; margin-left:-20px" href="">Cakes</a>
+    <br>
+    <a style="color:black; margin-left:-20px" href="">Pastries</a>
+    <br>
+    <a style="color:black; margin-left:-20px" href="">Chocolate</a>
+    <br>
+  </div>
+  </div>
+
+  <div class="column">
+  <div >
+    <a style="color:black; margin-left:-40px" href="">Refund Policy</a>
+    <br>
+    <a style="color:black; margin-left:-40px" href="">Privacy Policy</a>
+    <br>
+    <a style="color:black; margin-left:-40px" href="">Terms And Conditions</a>
+    <br>
+  </div>
+  </div>
+</div>
+
+<div>
+  <p style="text-align: center;">Copyright  <i class="fa-regular fa-copyright"></i>  KESULA. All right reserved
+    <br>
+    Designed And Developed by <a href="https://www.linkedin.com/in/shrijan-chavan-913009234/">Mr.Shrijan</a></p>
+  
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
