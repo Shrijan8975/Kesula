@@ -261,7 +261,7 @@ span.psw {
   background-color: #fefefe;
   margin: 5% auto 15% auto; 
   border: 1px solid #888;
-  width: 80%; 
+  width: 50%; 
 }
 
 
@@ -330,7 +330,7 @@ input[type=submit]:hover {
 
 .cbtn{
   
-  width: 100%;
+  width: 400px;
   margin-top: 6px;
   padding: 20px;
 }
@@ -345,14 +345,7 @@ input[type=submit]:hover {
   margin: 0;
   font-family: 'Mochiy Pop One', sans-serif;
 }
-/* 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #252839;
-} */
+
 
 ul {
   position: relative;
